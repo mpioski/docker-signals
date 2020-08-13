@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+
+  signal-tests:
+    build:
+      context: .
+    command: python signal_handler.py
+    container_name: signal-tests
